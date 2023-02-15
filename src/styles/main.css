@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Tajawal', sans-serif;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+html {
+  scroll-behavior: smooth;
+  direction: rtl;
+}
+
+body {
+  font-family: 'Tajawal', sans-serif;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+.btns {
+  display: flex;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.btns a {
+  padding: 8px 20px;
+  border-radius: 10px;
+  background-color: #3d8361;
+  color: white;
+  width: 120px;
+  text-align: center;
+}
+
+.btns a:first-child {
+  background-color: #256d85;
+}

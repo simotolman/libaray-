@@ -1,0 +1,70 @@
+section.addProduct {
+  width: 80%;
+  position: absolute;
+  left: 0;
+  padding: 20px;
+}
+section.addProduct .addProductContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+section.addProduct .addProductContainer h1 {
+  font-weight: 500;
+  margin-bottom: 60px;
+  font-size: 35px;
+  color: rgb(57, 57, 57);
+  text-align: center;
+}
+section.addProduct .addProductContainer form {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+section.addProduct .addProductContainer form > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+section.addProduct .addProductContainer form > div label {
+  flex: 1;
+  font-size: 17px;
+  font-weight: 500;
+  color: #222;
+}
+section.addProduct .addProductContainer form > div input,
+section.addProduct .addProductContainer form > div textarea,
+section.addProduct .addProductContainer form > div select {
+  flex: 3;
+  padding: 7px 10px;
+  background-color: #ddd;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  font-size: 17px;
+  font-weight: 300;
+}
+
+section.addProduct .addProductContainer form > div textarea {
+  height: 120px !important;
+  resize: none;
+}
+section.addProduct .addProductContainer form button {
+  margin: 0 auto;
+  width: fit-content;
+  padding: 10px 25px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  background-color: #256d85;
+  color: #fff;
+  transition: background-color 0.3s ease-in;
+}
+section.addProduct .addProductContainer form button:hover {
+  background-color: #00bfff;
+}

@@ -1,0 +1,94 @@
+.login {
+  width: 100%;
+  height: calc(100vh - 50px);
+}
+.login .loginContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.login .loginContainer > a {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  font-size: 17px;
+  font-weight: 500;
+  cursor: pointer;
+  background-color: #3d8361;
+  color: #fff;
+  transition: background-color 0.3s ease-in;
+}
+.login .loginContainer > button:hover {
+  background-color: #1c6758;
+}
+.login .loginContainer .image {
+  flex: 3;
+}
+.login .loginContainer .image img {
+  width: 100%;
+}
+.login .loginContainer .form {
+  flex: 2;
+  padding: 0 50px;
+}
+.login .loginContainer .form h1 {
+  font-weight: 500;
+  margin-bottom: 60px;
+  font-size: 35px;
+  color: rgb(57, 57, 57);
+}
+.login .loginContainer .form form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.login .loginContainer .form form > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.login .loginContainer .form form > div label {
+  flex: 1;
+  font-size: 17px;
+  font-weight: 500;
+  color: #222;
+}
+.login .loginContainer .form form > div input {
+  flex: 3;
+  padding: 7px 10px;
+  background-color: #ddd;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  font-size: 17px;
+  font-weight: 300;
+}
+.login .loginContainer .form form > div input.error {
+  border: 1px solid red;
+  color: red;
+}
+.login .loginContainer .form form button {
+  margin: 0 auto;
+  width: fit-content;
+  padding: 10px 25px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  background-color: #256d85;
+  color: #fff;
+  transition: background-color 0.3s ease-in;
+}
+.login .loginContainer .form form button:hover {
+  background-color: #00bfff;
+}

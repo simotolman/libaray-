@@ -1,0 +1,110 @@
+footer {
+  background-color: #222;
+  padding: 30px;
+}
+footer .footerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+footer .footerContainer .details {
+  flex: 3;
+}
+footer .footerContainer .links {
+  flex: 1;
+}
+footer .footerContainer .news {
+  flex: 2;
+}
+footer .footerContainer .details .logo a {
+  color: rgb(215, 215, 215);
+  font-size: 25px;
+  font-weight: 500;
+  user-select: none;
+  cursor: pointer;
+  display: block;
+  margin-bottom: 30px;
+}
+footer .footerContainer .details p {
+  border-top: 1px solid #ccc;
+  padding-top: 30px;
+  color: #ccc;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 1.6;
+}
+footer .footerContainer .link ul {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+footer .footerContainer .link ul li a {
+  padding: 7px 5px;
+  color: #ccc;
+  font-size: 18px;
+  font-weight: 300;
+  transition: color 0.3s ease-in;
+}
+footer .footerContainer .link ul li a:hover {
+  color: #256d85;
+}
+footer .footerContainer .news {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 30px;
+}
+footer .footerContainer .news .icons {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 25px;
+}
+footer .footerContainer .news .icons svg {
+  color: #fff;
+  font-size: 20px;
+  margin-right: 15px;
+  cursor: pointer;
+  transition: color 0.3s ease-in;
+}
+footer .footerContainer .news .icons svg:hover {
+  color: #256d85;
+}
+footer .footerContainer .letter {
+  width: 100%;
+}
+footer .footerContainer .letter p {
+  font-size: 18px;
+  color: rgb(215, 215, 215);
+  margin-bottom: 10px;
+}
+footer .footerContainer .letter form {
+  width: 100%;
+  border-radius: 5px;
+  overflow: hidden;
+  display: flex;
+}
+footer .footerContainer .letter form input,
+footer .footerContainer .letter form button {
+  padding: 7px 10px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  font-weight: 300;
+}
+footer .footerContainer .letter form input {
+  flex: 3;
+}
+footer .footerContainer .letter form button {
+  font-size: 14px;
+  font-weight: 300;
+  cursor: pointer;
+  background-color: #3d8361;
+  transition: background-color 0.3s ease-in;
+  color: #fff;
+}
+footer .footerContainer .letter form button:hover {
+  background-color: #1c6758;
+}

@@ -1,0 +1,64 @@
+section.contact {
+  padding: 60px 30px;
+}
+section.contact .contactContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+section.contact .contactContainer h1 {
+  font-weight: 500;
+  margin-bottom: 40px;
+  font-size: 35px;
+  color: rgb(57, 57, 57);
+  text-align: center;
+}
+section.contact .contactContainer form {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+section.contact .contactContainer form > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+section.contact .contactContainer form > div label {
+  flex: 1;
+  font-size: 17px;
+  font-weight: 500;
+  color: #222;
+}
+section.contact .contactContainer form > div input,
+section.contact .contactContainer form > div textarea {
+  flex: 4;
+  padding: 7px 10px;
+  background-color: #ddd;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  font-size: 17px;
+  font-weight: 300;
+}
+section.contact .contactContainer form > div textarea {
+  height: 120px;
+  resize: none;
+}
+section.contact .contactContainer form button {
+  margin: 0 auto;
+  width: fit-content;
+  padding: 10px 25px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  background-color: #3d8361;
+  color: #fff;
+  transition: background-color 0.3s ease-in;
+}
+section.contact .contactContainer form button:hover {
+  background-color: #00bfff;
+}
